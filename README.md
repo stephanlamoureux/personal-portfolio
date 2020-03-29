@@ -1,6 +1,6 @@
 ## Responsive Web Design Projects - Build a Personal Portfolio Webpage
 
-## Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
+### Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNBOYG.
 
 Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
 
@@ -32,5 +32,5 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 
 Once you're done, submit the URL to your working project with all its tests passing.
 
-## Completed Project
+### Completed Project
 https://www.slamoureux.github.io/personal-portfolio
