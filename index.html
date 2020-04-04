@@ -2,17 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Portfolio Page - for the freeCodeCamp Responsive Design Certificate.">
-    <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Personal Portfolio - Stephan Lamoureux</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Personal Portfolio Page - for the freeCodeCamp Responsive Design Certificate.">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+	<title>Personal Portfolio</title>
 </head>
 
 <body>
-    <!-- freeCodeCamp Test Suite -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+	<!-- freeCodeCamp Test Suite -->
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+	<!-- Navbar-->
+	<nav id="navbar" class="navbar">
+		<ul class="nav-list">
+			<li><a href="#welcome-section">About</a></li>
+			<li><a href="#projects">Work</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	</nav>
+	<!-- End Navbar -->
+
+	<!-- Welcome Section -->
+	<section id="welcome-section" class="welcome">
+		<h1>Hey, I'm Steve &#128075;</h1>
+		<p class="welcome-p">Check out my responsive design projects</p>
+		<div class="arrow"><a href="#projects">&#8681;</a></div>
+	</section>
+	<!-- End Welcome Section -->
+
+	<!-- Project Section -->
+	<section id="projects" class="projects">
+		<h2 class="projects-header">&#60; freeCodeCamp Projects &#47;&#62;</h2>
+		<div class="projects-container">
+			<div class="projects-grid">
+				<div class="project-cell">
+					<a href="https://slamoureux.github.io/tribute-page/" target="_blank" class="project-tile">
+						<img src="images/tribute.png" alt="Tribute Page Project" class="project-image">
+						<p class="project-name">Tribute Page</p>
+					</a></div>
+				<div class="project-cell">
+					<a href="https://slamoureux.github.io/survey-form/" target="_blank" class="project-tile">
+						<img src="images/survey.png" alt="Survey Form Project" class="project-image">
+						<p class="project-name">Survey Form</p>
+					</a></div>
+				<div class="project-cell">
+					<a href="https://slamoureux.github.io/product-landing-page/" target="_blank" class="project-tile">
+						<img src="images/landing.png" alt="Product Landing Page Project" class="project-image">
+						<p class="project-name">Product Landing Page</p>
+					</a></div>
+				<div class="project-cell">
+					<a href="https://slamoureux.github.io/technical-doc/" target="_blank" class="project-tile">
+						<img src="images/tech.png" alt="Technical Document Project" class="project-image">
+						<p class="project-name">Technical Documentation</p>
+					</a></div>
+			</div>
+		</div>
+	</section>
+	<!-- End Project Section -->
+
+	<!-- Contact Section -->
+	<section id="contact" class="contact">
+		<h2 class="contact-header">@</h2>
+		<p>Follow me on these platforms</p>
+		<div class="contact-flex">
+			<a href="https://github.com/slamoureux" target="_blank" class="icon-links"><i class="fab fa-github"></i>
+				Github</a>
+			<a href="https://codepen.io/s-lamoureux" target="_blank" class="icon-links"><i class="fab fa-codepen"></i>
+				Codepen</a>
+			<a href="https://twitter.com/sa_lamoureux" target="_blank" class="icon-links"><i class="fab fa-twitter"></i>
+				Twitter</a>
+		</div>
+	</section>
+	<!-- End Contact Section -->
+
+	<!-- Footer -->
+	<footer>
+		<p>Coded by Stephan Lamoureux for <a href="https://www.freecodecamp.org/slamoureux" target="_blank"
+				id="profile-link">freeCodeCamp <i class="fab fa-free-code-camp"></i></a>
+		</p>
+	</footer>
+	<!-- End Footer -->
+
 </body>
 
 </html>
