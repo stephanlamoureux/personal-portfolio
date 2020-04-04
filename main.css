@@ -145,11 +145,11 @@ img {
 
 .projects {
 	background-color: #eeeeee;
-	padding: 0 0 6rem 0;
+	padding: 0 0 7rem 0;
 }
 
 .projects-header {
-	padding: 7rem 0 6rem 0;
+	padding: 7rem 0 7rem 0;
 	color: #232931;
 	font-size: 3rem;
 }
@@ -192,7 +192,7 @@ img {
 .contact {
 	background-color: #232931;
 	color: #eeeeee;
-	padding: 0 0 6rem 0;
+	padding: 0 0 7rem 0;
 }
 
 .contact-header {
@@ -265,9 +265,13 @@ footer a:hover {
 		width: 100%;
 	}
 
+	.projects {
+		padding-bottom: 6rem;
+	}
+
 	.projects-header {
 		font-size: 2.2rem;
-		padding-bottom: 3rem;
+		padding: 6rem 0 6rem 0;
 	}
 
 	.project-name {
@@ -282,6 +286,14 @@ footer a:hover {
 		font-size: 3rem;
 	}
 
+	.contact {
+		padding-bottom: 6rem;
+	}
+
+	.contact-header {
+		padding-top: 6rem;
+	}
+
 	footer {
 		font-size: 1rem;
 	}
@@ -294,12 +306,16 @@ footer a:hover {
 	}
 
 	.navbar {
-		justify-content: space-around;
+		justify-content: center;
+	}
+
+	.projects {
+		padding-bottom: 5rem;
 	}
 
 	.projects-header {
-		font-size: 1.5rem;
-		padding: 5rem 0 2rem 0;
+		font-size: 1.6rem;
+		padding: 5rem 0 5rem 0;
 	}
 
 	.contact-flex a:link,
@@ -329,17 +345,33 @@ footer a:hover {
 		padding: 1rem 2rem;
 	}
 
+	.contact {
+		padding-bottom: 5rem;
+	}
+
+	.contact-header {
+		font-size: 2.8rem;
+	}
+
 	.contact p {
 		font-size: 1.2rem;
 	}
 
+	.contact-flex {
+		padding: 5rem 0 5rem 0;
+	}
+
 	footer {
-		font-size: .9rem;
+		font-size: 1rem;
 	}
 
 	.arrow::after {
 		width: 20px;
 		height: 20px;
+	}
+
+	.contact-header {
+		padding: 5rem 0 0 0;
 	}
 }
 
