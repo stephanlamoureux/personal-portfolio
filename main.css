@@ -230,6 +230,8 @@ footer a:hover {
 }
 
 /* Responsive */
+
+/* Tablets */
 @media screen and (max-width: 1000px) {
 	.projects-grid {
 		flex-direction: column;
@@ -244,6 +246,10 @@ footer a:hover {
 		padding-bottom: 3rem;
 	}
 
+	.project-name {
+		font-size: 1.2rem;
+	}
+
 	.welcome p {
 		font-size: 1.5rem;
 	}
@@ -251,9 +257,22 @@ footer a:hover {
 	.welcome h1 {
 		font-size: 3rem;
 	}
+
+	footer {
+		font-size: 1rem;
+	}
 }
 
-@media screen and (max-width: 425px) {
+/* Large Phones */
+@media screen and (max-width: 767px) {
+	.nav-list {
+		margin: 0;
+	}
+
+	.navbar {
+		justify-content: center;
+	}
+
 	.projects-header {
 		font-size: 1.5rem;
 		padding: 5rem 0 2rem 0;
@@ -274,6 +293,18 @@ footer a:hover {
 		font-size: 1rem;
 	}
 
+	.arrow {
+		font-size: 1.5rem;
+	}
+
+	.projects {
+		padding-bottom: 5rem;
+	}
+
+	.project-cell {
+		padding: 1rem 2rem;
+	}
+
 	.contact p {
 		font-size: 1.2rem;
 	}
@@ -283,8 +314,21 @@ footer a:hover {
 	}
 }
 
+/* Small Phones */
 @media screen and (max-width: 424px) {
 	.projects-header {
 		font-size: 1.3rem;
+	}
+
+	.project-cell {
+		padding: 1rem 1rem;
+	}
+
+	.project-name {
+		font-size: 1.1rem;
+	}
+
+	footer {
+		font-size: .9rem;
 	}
 }
