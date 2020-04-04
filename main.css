@@ -240,7 +240,7 @@ footer a:hover {
 	}
 
 	.projects-header {
-		font-size: 2.4rem;
+		font-size: 2.2rem;
 		padding-bottom: 3rem;
 	}
 
@@ -272,5 +272,19 @@ footer a:hover {
 
 	.welcome p {
 		font-size: 1rem;
+	}
+
+	.contact p {
+		font-size: 1.2rem;
+	}
+
+	footer {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (max-width: 424px) {
+	.projects-header {
+		font-size: 1.3rem;
 	}
 }
