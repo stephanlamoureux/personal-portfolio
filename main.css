@@ -101,14 +101,38 @@ img {
 }
 
 .arrow {
-	font-size: 2rem;
-	color: #4ecca3;
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+	margin: 0 auto;
+	text-align: center;
 	width: 100%;
 	height: 100%;
-	padding-bottom: 50px;
+}
+
+.arrow::after {
+	content: "";
+	width: 40px;
+	height: 40px;
+	margin: 700px auto;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-right: 4px solid #4ecca3;
+	border-bottom: 4px solid #4ecca3;
+	transform: rotate(45deg);
+	animation: 3s arrow infinite ease;
+}
+
+@keyframes arrow {
+
+	0%,
+	100% {
+		top: 50px;
+	}
+
+	50% {
+		top: 80px;
+	}
 }
 
 .arrow a:link,
@@ -311,6 +335,11 @@ footer a:hover {
 
 	footer {
 		font-size: 1rem;
+	}
+
+	.arrow::after {
+		width: 20px;
+		height: 20px;
 	}
 }
 
