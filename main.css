@@ -310,12 +310,12 @@ footer a:hover {
 	}
 
 	.projects {
-		padding-bottom: 5rem;
+		padding-bottom: 4rem;
 	}
 
 	.projects-header {
 		font-size: 1.6rem;
-		padding: 5rem 0 5rem 0;
+		padding: 4rem 0 4rem 0;
 	}
 
 	.contact-flex a:link,
@@ -338,7 +338,7 @@ footer a:hover {
 	}
 
 	.projects {
-		padding-bottom: 5rem;
+		padding-bottom: 4rem;
 	}
 
 	.project-cell {
@@ -346,11 +346,12 @@ footer a:hover {
 	}
 
 	.contact {
-		padding-bottom: 5rem;
+		padding-bottom: 4rem;
 	}
 
 	.contact-header {
 		font-size: 2.8rem;
+		padding-top: 4rem;
 	}
 
 	.contact p {
@@ -358,7 +359,7 @@ footer a:hover {
 	}
 
 	.contact-flex {
-		padding: 5rem 0 5rem 0;
+		padding: 4rem 0 4rem 0;
 	}
 
 	footer {
@@ -371,7 +372,7 @@ footer a:hover {
 	}
 
 	.contact-header {
-		padding: 5rem 0 0 0;
+		padding: 4rem 0 0 0;
 	}
 }
 
@@ -390,6 +391,6 @@ footer a:hover {
 	}
 
 	footer {
-		font-size: .9rem;
+		font-size: 1rem;
 	}
 }
