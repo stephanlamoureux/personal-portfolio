@@ -290,7 +290,7 @@ footer a:hover {
 /* Large Phones */
 @media screen and (max-width: 767px) {
 	.nav-list {
-		margin: 0;
+		margin-right: 0;
 	}
 
 	.navbar {
@@ -334,7 +334,7 @@ footer a:hover {
 	}
 
 	footer {
-		font-size: 1rem;
+		font-size: .9rem;
 	}
 
 	.arrow::after {
