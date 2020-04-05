@@ -168,7 +168,7 @@ img {
 	padding: 1rem 3rem;
 }
 
-.project-cell :hover {
+.project-tile:hover .project-name {
 	color: white;
 }
 
@@ -257,6 +257,14 @@ footer a:hover {
 
 /* Tablets */
 @media screen and (max-width: 1000px) {
+	.welcome p {
+		font-size: 1.5rem;
+	}
+
+	.welcome h1 {
+		font-size: 3rem;
+	}
+
 	.projects-grid {
 		flex-direction: column;
 	}
@@ -276,14 +284,6 @@ footer a:hover {
 
 	.project-name {
 		font-size: 1.2rem;
-	}
-
-	.welcome p {
-		font-size: 1.5rem;
-	}
-
-	.welcome h1 {
-		font-size: 3rem;
 	}
 
 	.contact {
@@ -309,22 +309,6 @@ footer a:hover {
 		justify-content: center;
 	}
 
-	.projects {
-		padding-bottom: 4rem;
-	}
-
-	.projects-header {
-		font-size: 1.8rem;
-		padding: 4rem 0 4rem 0;
-	}
-
-	.contact-flex a:link,
-	.contact-flex a:visited,
-	.contact-flex a:active {
-		color: #eeeeee;
-		font-size: 1.2rem;
-	}
-
 	.welcome h1 {
 		font-size: 2rem;
 	}
@@ -337,12 +321,22 @@ footer a:hover {
 		font-size: 1.5rem;
 	}
 
+	.arrow::after {
+		width: 20px;
+		height: 20px;
+	}
+
 	.projects {
 		padding-bottom: 4rem;
 	}
 
 	.project-cell {
 		padding: 1rem 2rem;
+	}
+
+	.projects-header {
+		font-size: 1.8rem;
+		padding: 4rem 0 4rem 0;
 	}
 
 	.contact {
@@ -362,18 +356,21 @@ footer a:hover {
 		padding: 4rem 0 4rem 0;
 	}
 
+	.contact-flex a:link,
+	.contact-flex a:visited,
+	.contact-flex a:active {
+		color: #eeeeee;
+		font-size: 1.2rem;
+	}
+
+	.contact-flex a:hover {
+		color: #4ecca3;
+	}
+
 	footer {
 		font-size: 1.3rem;
 	}
 
-	.arrow::after {
-		width: 20px;
-		height: 20px;
-	}
-
-	.contact-header {
-		padding: 4rem 0 0 0;
-	}
 }
 
 /* Small Phones */
