@@ -16,7 +16,7 @@ html {
 	box-sizing: inherit;
 }
 
-/* Global Style */
+/* Base Style */
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -200,7 +200,7 @@ img {
 	font-size: 3.5rem;
 }
 
-.contact p {
+.contact>p {
 	text-align: center;
 	color: #4ecca3;
 	font-size: 1.5rem;
@@ -229,6 +229,76 @@ img {
 	color: #eeeeee;
 }
 
+/* E-mail Form */
+
+.form-title {
+	text-align: center;
+	color: #4ecca3;
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+	padding-top: .5rem;
+}
+
+.form-container {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 1.4rem;
+	margin-bottom: 10px;
+}
+
+label {
+	display: block;
+	padding-bottom: .3rem;
+	color: #232931
+}
+
+input,
+textarea {
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: #8a97a0;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 30px;
+}
+
+button {
+	padding: 19px 39px 18px 39px;
+	color: #eeeeee;
+	background-color: #4ecca3;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 5px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+button:hover {
+	color: #232931;
+}
+
 /* Footer */
 
 footer {
@@ -253,7 +323,7 @@ footer a:hover {
 	color: #4ecca3;
 }
 
-/* Responsive */
+/* Responsiveness */
 
 /* Tablets */
 @media screen and (max-width: 1000px) {
@@ -296,6 +366,10 @@ footer a:hover {
 
 	footer {
 		font-size: 1rem;
+	}
+
+	form {
+		width: 75%;
 	}
 }
 
@@ -371,6 +445,10 @@ footer a:hover {
 		font-size: 1.3rem;
 	}
 
+	form {
+		width: 100%;
+	}
+
 }
 
 /* Small Phones */
@@ -389,5 +467,9 @@ footer a:hover {
 
 	footer {
 		font-size: 1rem;
+	}
+
+	form {
+		width: 100%;
 	}
 }
