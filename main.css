@@ -96,7 +96,7 @@ img {
 	color: #4ecca3;
 	font-size: 2rem;
 	font-style: italic;
-	padding-top: .5rem;
+	padding-top: 0.5rem;
 	text-align: center;
 }
 
@@ -138,7 +138,7 @@ img {
 .arrow a:link,
 .arrow a:visited,
 .arrow a:active {
-	color: #4ecca3
+	color: #4ecca3;
 }
 
 /* Projects Section */
@@ -200,12 +200,12 @@ img {
 	font-size: 3.5rem;
 }
 
-.contact>p {
+.social {
 	text-align: center;
 	color: #4ecca3;
 	font-size: 1.5rem;
 	font-style: italic;
-	padding-top: .5rem;
+	padding-top: 0.5rem;
 }
 
 .contact-flex {
@@ -222,7 +222,11 @@ img {
 }
 
 .contact-flex a:hover {
-	color: #4ecca3
+	color: #4ecca3;
+}
+
+.icon-links:hover i {
+	transform: scale(1.1);
 }
 
 .contact-flex a>i {
@@ -235,8 +239,9 @@ img {
 	text-align: center;
 	color: #4ecca3;
 	font-size: 1.5rem;
+	font-style: italic;
 	margin-bottom: 30px;
-	padding-top: .5rem;
+	padding-top: 0.5rem;
 }
 
 .form-container {
@@ -246,7 +251,7 @@ img {
 
 form {
 	width: 50%;
-	margin: 10px auto;
+	margin: 0 auto;
 	padding: 10px 20px;
 	background: #f4f7f8;
 	border-radius: 8px;
@@ -263,8 +268,9 @@ legend {
 
 label {
 	display: block;
-	padding-bottom: .3rem;
-	color: #232931
+	padding-bottom: 0.3rem;
+	color: #232931;
+	font-size: 1.1rem;
 }
 
 input,
@@ -287,7 +293,7 @@ button {
 	padding: 19px 39px 18px 39px;
 	color: #eeeeee;
 	background-color: #4ecca3;
-	font-size: 18px;
+	font-size: 1.3rem;
 	text-align: center;
 	font-style: normal;
 	border-radius: 5px;
@@ -422,8 +428,8 @@ footer a:hover {
 		padding-top: 4rem;
 	}
 
-	.contact p {
-		font-size: 1.2rem;
+	.social {
+		font-size: 1.3rem;
 	}
 
 	.contact-flex {
@@ -434,11 +440,23 @@ footer a:hover {
 	.contact-flex a:visited,
 	.contact-flex a:active {
 		color: #eeeeee;
-		font-size: 1.2rem;
+		font-size: 1.3rem;
 	}
 
 	.contact-flex a:hover {
 		color: #4ecca3;
+	}
+
+	.form-title {
+		font-size: 1.3rem;
+	}
+
+	label {
+		font-size: 1rem;
+	}
+
+	button {
+		font-size: 1.1rem;
 	}
 
 	footer {
@@ -448,7 +466,6 @@ footer a:hover {
 	form {
 		width: 100%;
 	}
-
 }
 
 /* Small Phones */
@@ -465,11 +482,14 @@ footer a:hover {
 		font-size: 1.1rem;
 	}
 
+	.contact-flex a:link,
+	.contact-flex a:visited,
+	.contact-flex a:active {
+		font-size: 1.2rem;
+	}
+
 	footer {
 		font-size: 1rem;
 	}
 
-	form {
-		width: 100%;
-	}
 }
