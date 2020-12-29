@@ -65,7 +65,7 @@ img {
 
 .nav-list a {
 	display: block;
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	padding: 1rem;
 }
 
@@ -156,6 +156,7 @@ img {
 
 .projects-container {
 	margin: 0 auto;
+	width: 90%;
 }
 
 .projects-grid {
@@ -170,6 +171,7 @@ img {
 
 .project-tile:hover .project-name {
 	color: white;
+	transition: .5s ease;
 }
 
 .project-image {
@@ -227,8 +229,17 @@ img {
 	color: #4ecca3;
 }
 
+.icon-links {
+	transition: 1s ease;
+}
+
+.icon-links i {
+	transition: 1s ease;
+}
+
 .icon-links:hover i {
 	transform: scale(1.1);
+	transition: 1s ease;
 }
 
 .contact-flex a>i {
@@ -240,7 +251,7 @@ img {
 .form-title {
 	text-align: center;
 	color: #4ecca3;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	font-style: italic;
 	margin-bottom: 30px;
 	padding-top: 0.5rem;
@@ -279,7 +290,7 @@ input,
 textarea {
 	background: rgba(255, 255, 255, 0.1);
 	border: none;
-	font-size: 16px;
+	font-size: 18px;
 	height: auto;
 	margin: 0;
 	outline: 0;
@@ -317,7 +328,7 @@ footer {
 	padding: 50px;
 	background-color: #232931;
 	color: #eeeeee;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	text-align: center;
 }
 
