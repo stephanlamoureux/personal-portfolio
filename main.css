@@ -167,6 +167,7 @@ img {
 .project-cell {
 	width: 50%;
 	padding: 1rem 3rem;
+	margin: 0 auto;
 }
 
 .project-tile:hover .project-name {
@@ -343,6 +344,15 @@ footer a:hover {
 }
 
 /* Responsiveness */
+
+/* High Res */
+@media screen and (min-width: 2560px) {
+	.project-cell {
+		width: 48%;
+		padding: 1rem 3rem;
+		margin: 0 auto;
+	}
+}
 
 /* Tablets */
 @media screen and (max-width: 1000px) {
