@@ -36,4 +36,4 @@ You can build your project by forking this CodePen pen. Or you can use this CDN 
 Once you're done, submit the URL to your working project with all its tests passing.
 
 ### Completed Project
-[My Portfolio Page](https://slamoureux.github.io/personal-portfolio/)
+[My Portfolio Page](https://stephanlamoureux.github.io/personal-portfolio/)
