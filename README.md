@@ -32,6 +32,7 @@ You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is rec
 - User Story #11: The navbar should always be at the top of the viewport.
 
 You can build your project by forking this CodePen pen. Or you can use [this](https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js) CDN link to run the tests in any environment you like.
+
 Once you're done, submit the URL to your working project with all its tests passing.
 
 ### Completed Project
