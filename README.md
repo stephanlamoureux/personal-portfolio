@@ -1,4 +1,4 @@
-# 🔗[Personal Portfolio Webpage](https://stephanlamoureux.github.io/personal-portfolio/)
+# 🔗 [Personal Portfolio Webpage](https://stephanlamoureux.github.io/personal-portfolio/)
 
 ## Responsive Web Design Projects: Build a Personal Portfolio Webpage
 
