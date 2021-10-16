@@ -170,9 +170,12 @@ img {
 	margin: 0 auto;
 }
 
+.project-tile:hover .project-image, .project-tile:hover .project-name {
+	box-shadow: 0 0 3px 1px black;
+}
+
 .project-tile:hover .project-name {
 	color: white;
-	transition: 0.5s ease;
 }
 
 .project-image {
@@ -189,7 +192,6 @@ img {
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 	max-width: 1000px;
-	transition: 0.5s ease;
 }
 
 /* Contact Section */
@@ -231,16 +233,16 @@ img {
 }
 
 .icon-links {
-	transition: 1s ease;
+	transition: 0.2s ease all;
 }
 
 .icon-links i {
-	transition: 1s ease;
+	transition: 0.2s ease all;
 }
 
 .icon-links:hover i {
 	transform: scale(1.1);
-	transition: 1s ease;
+	transition: 0.2s ease;
 }
 
 .contact-flex a>i {
@@ -317,6 +319,7 @@ button {
 
 button:hover {
 	color: #232931;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
